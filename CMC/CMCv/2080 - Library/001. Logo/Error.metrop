@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconProject Version="2.0" Name="Error">
+  <Icon Name="Warning-Message" HasCharacterMap="false" GroupName="Mobile Application" IsDirty="false" ExportCommand="MetroGraphicsPackage.IconCommand" Data="M13.950004,24.5L13.950004,28.299988 17.950004,28.299988 17.950004,24.5z M13.950004,10.399963L13.950004,21.699951 17.950004,21.699951 17.950004,10.399963z M15.950004,0C16.349998,0,16.750007,0.19995117,16.950004,0.69995117L31.750011,30.099976C31.949993,30.5 31.949993,31 31.750011,31.399963 31.549999,31.799988 31.150005,32 30.750011,32L1.1499981,32C0.75000406,32 0.34999478,31.799988 0.14999761,31.399963 -0.049999204,31 -0.049999204,30.5 0.14999761,30.099976L14.950004,0.69995117C15.150001,0.19995117,15.549995,0,15.950004,0z" Location="Mobile Application">
+    <Settings MainWidth="90" MainHeight="90" FlipX="1" FlipY="1" CustomSize="256" IconShape="None" BackgroundBrush="#FF000000" ContentWidth="70" ContentHeight="70" Angle="0" IsRect="true" SizeIndex="7" CustomWidth="90" CustomHeight="90" IsLinked="true" Padding="10" MaximumPadding="27" SldierValueChanged="MetroGraphicsPackage.IconCommand" IconBrush="#FFFFFFFF" FontFamily="Webdings" Character="&gt;" FlipCommand="MetroGraphicsPackage.IconCommand" IsBackgroundVisible="true" />
+  </Icon>
+</IconProject>

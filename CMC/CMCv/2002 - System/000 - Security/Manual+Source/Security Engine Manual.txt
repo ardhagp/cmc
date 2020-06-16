@@ -1,0 +1,68 @@
+﻿Security Engine Manual
+======================
+
+How to Encrypt String
+---------------------
+Crypto.EncryptionAlgorithm = Crypto.Algorithm.Rijndael
+Crypto.Encoding = Crypto.EncodingType.BASE_64
+Crypto.Key = "This is @ key and IT 1s strong"
+If Crypto.EncryptString("This is the string I want to encrypt") Then
+MessageBox.Show("The encrypted text is: " & Crypto.Content)
+Else
+MessageBox.Show(Crypto.CryptoException.Message)
+End If
+Crypto.Clear()
+
+
+How to Decrypt String
+---------------------
+Crypto.EncryptionAlgorithm = Crypto.Algorithm.Rijndael
+Crypto.Encoding = Crypto.EncodingType.BASE_64
+Crypto.Key = "This is @ key and IT 1s strong"
+Crypto.Content = encryptedString
+If Crypto.DecryptString Then
+MessageBox.Show("The decrypted string is " & Crypto.Content)
+Else
+MessageBox.Show(Crypto.CryptoException.Message)
+End If
+Crypto.Clear()
+
+
+How to Generate Hash
+--------------------
+Crypto.EncryptionAlgorithm = Crypto.Algorithm.SHA512
+Crypto.Encoding = Crypto.EncodingType.HEX
+If Crypto.GenerateHash("This is my password") Then
+MessageBox.Show("Hashed password is " & Crypto.Content)
+Else
+MessageBox.Show(Crypto.CryptoException.Message)
+End If
+Crypto.Clear()
+
+
+How to Encrypt a file
+---------------------
+Crypto.EncryptionAlgorithm = Crypto.Algorithm.RSA
+Crypto.Encoding = Crypto.EncodingType.HEX
+Crypto.Key = "This is @ key and IT 1s strong"
+If Crypto.EncryptFile("c:\MyTextFile.txt", _
+"c:\MyEncryptedFile.txt") Then
+MessageBox.Show("File Encrypted")
+Else
+MessageBox.Show(Crypto.CryptoException.Message)
+End If
+Crypto.Clear()
+
+
+How to Decrypt a file
+---------------------
+Crypto.EncryptionAlgorithm = Crypto.Algorithm.RSA
+Crypto.Encoding = Crypto.EncodingType.HEX
+Crypto.Key = "This is @ key and IT 1s strong"
+	If Crypto.DecryptFile("c:\MyEncryptedFile.txt", _
+		"c:\MyTextFile.txt") Then
+		MessageBox.Show("File Decrypted")
+	Else
+		MessageBox.Show(Crypto.CryptoException.Message)
+	End If
+Crypto.Clear()

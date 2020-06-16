@@ -1,0 +1,896 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\..\Ingrid\Apps\Core\Ingrid\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\..\..\Ingrid\Apps\Core\Ingrid\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{B4CB63B0-C6A8-415B-9D99-C212BEDFA4A1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CMCv</RootNamespace>
+    <AssemblyName>CMCv</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+    <PrimaryVersionType>AssemblyVersionAttribute</PrimaryVersionType>
+    <UpdateAssemblyVersion>False</UpdateAssemblyVersion>
+    <UpdateAssemblyFileVersion>False</UpdateAssemblyFileVersion>
+    <UpdateAssemblyInfoVersion>False</UpdateAssemblyInfoVersion>
+    <AssemblyInfoVersionSettings>
+    </AssemblyInfoVersionSettings>
+    <ShouldCreateLogs>True</ShouldCreateLogs>
+    <AdvancedSettingsExpanded>True</AdvancedSettingsExpanded>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UpdatePackageVersion>False</UpdatePackageVersion>
+    <AssemblyInfoVersionType>SettingsVersion</AssemblyInfoVersionType>
+    <InheritWinAppVersionFrom>None</InheritWinAppVersionFrom>
+    <AssemblyVersion>2.100.20167.1127</AssemblyVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CMCv.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CMCv.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>CMCv.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Mainframe.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\Rule Sets\MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>CMCv.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Mainframe.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>CMCv.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Mainframe.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>CMCv.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Mainframe.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Itanium'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Itanium\Debug\</OutputPath>
+    <DocumentationFile>CMCv.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>Itanium</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Mainframe.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Itanium'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Itanium\Release\</OutputPath>
+    <DocumentationFile>CMCv.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>Itanium</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Mainframe.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Ingrid\Apps\Core\Ingrid\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Ingrid\Apps\Core\Ingrid\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Ingrid\Apps\Core\Ingrid\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Ingrid\Apps\Core\Ingrid\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Ingrid\Apps\Core\Ingrid\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Grid.Base, Version=16.4460.0.52, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Grid.Windows, Version=16.4460.0.52, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Pdf.Base, Version=15.2460.0.46, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Syncfusion.PdfViewer.Windows, Version=15.2460.0.46, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base, Version=16.4460.0.52, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Shared.Windows, Version=16.4460.0.52, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.SpellChecker.Base, Version=16.4460.0.52, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Tools.Base, Version=16.4460.0.52, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Tools.Windows, Version=16.4460.0.52, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.IO">
+      <HintPath>..\..\..\Ingrid\Apps\Core\Ingrid\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Ingrid\Apps\Core\Ingrid\packages\System.Runtime.4.3.1\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Ingrid\Apps\Core\Ingrid\packages\System.Security.Cryptography.Algorithms.4.3.1\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Ingrid\Apps\Core\Ingrid\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Ingrid\Apps\Core\Ingrid\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="TXDocumentServer.Windows.Forms.Design, Version=26.0.106.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL" />
+    <Reference Include="TXTextControl, Version=26.0.1900.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL" />
+    <Reference Include="TXTextControl.Server, Version=26.0.1100.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL" />
+    <Reference Include="TXTextControl.Windows.Forms, Version=26.0.1100.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL" />
+    <Reference Include="TXTextControl.Windows.Forms.Design, Version=26.0.110.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="2001 - Service\01 - Database\02 - Engine\01 - MS Access 2003\clsMSAcess2003.vb" />
+    <Compile Include="2001 - Service\01 - Database\02 - Engine\04 - LocalDB\clsLocalDB.vb" />
+    <Compile Include="2001 - Service\01 - Database\03 - Adapter\02 - MS SQL Server 2008\clsMSSQL2008.vb" />
+    <Compile Include="2001 - Service\01 - Database\03 - Adapter\04 - LocalDB\clsLocalDB.vb" />
+    <Compile Include="2001 - Service\97 - Dialog Box\frmDialogBox.Designer.vb">
+      <DependentUpon>frmDialogBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2001 - Service\97 - Dialog Box\frmDialogBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2002 - System\000 - Security\clsEncrypt.vb" />
+    <Compile Include="2002 - System\010 - Hardware\clsHardware.vb" />
+    <Compile Include="2002 - System\100 - Image Processor\Compress\clsImageEditor.vb" />
+    <Compile Include="2002 - System\020 - Operating System\clsFiles.vb" />
+    <Compile Include="2099 - Interface\1st Party\ULbl.Designer.vb">
+      <DependentUpon>ULbl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\1st Party\ULbl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\3rd Party\PDFViewer\PDFVWR.Designer.vb">
+      <DependentUpon>PDFVWR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\3rd Party\PDFViewer\PDFVWR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\3rd Party\PhotoViewer\PhotoViewer.Designer.vb">
+      <DependentUpon>PhotoViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\3rd Party\PhotoViewer\PhotoViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\3rd Party\PhotoResizer\PHTRZ.Designer.vb">
+      <DependentUpon>PHTRZ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\3rd Party\PhotoResizer\PHTRZ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\3rd Party\RichText Control\Editor\clsFileDragDropHandler.vb" />
+    <Compile Include="2099 - Interface\3rd Party\RichText Control\Editor\clsFileHandler.vb" />
+    <Compile Include="2099 - Interface\3rd Party\RichText Control\Editor\clsFileHandlerToolbar.vb" />
+    <Compile Include="2099 - Interface\3rd Party\RichText Control\Editor\clsPageSetup.vb" />
+    <Compile Include="2099 - Interface\3rd Party\RichText Control\Editor\clsSaveDocumentFileDialog.vb" />
+    <Compile Include="2099 - Interface\3rd Party\RichText Control\Editor\frmHTMLOptions.Designer.vb">
+      <DependentUpon>frmHTMLOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\3rd Party\RichText Control\Editor\frmHTMLOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\3rd Party\RichText Control\Editor\frmTextEditor.Designer.vb">
+      <DependentUpon>frmTextEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\3rd Party\RichText Control\Editor\frmTextEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\Button\btn.Designer.vb">
+      <DependentUpon>btn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\Button\btn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\CheckBox\chk.Designer.vb">
+      <DependentUpon>chk.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\CheckBox\chk.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\clsControlCodeBase.vb" />
+    <Compile Include="2099 - Interface\Controls\ComboBox\cbo.Designer.vb">
+      <DependentUpon>cbo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\ComboBox\cbo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\Context Menu\csmnu.Designer.vb">
+      <DependentUpon>csmnu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\Context Menu\csmnu.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\DataGridView\dgn.Designer.vb">
+      <DependentUpon>dgn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\DataGridView\dgn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\DateTimePicker\dtp.Designer.vb">
+      <DependentUpon>dtp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\DateTimePicker\dtp.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\GroupBox\gbx.Designer.vb">
+      <DependentUpon>gbx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\GroupBox\gbx.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\Label\lbl.Designer.vb">
+      <DependentUpon>lbl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\Label\lbl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\LinkLabel\lnklbl.Designer.vb">
+      <DependentUpon>lnklbl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\LinkLabel\lnklbl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\MaskEditBox\meb.Designer.vb">
+      <DependentUpon>meb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\MaskEditBox\meb.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\Menu Strip\mnu.Designer.vb">
+      <DependentUpon>mnu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\Menu Strip\mnu.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\NumericUpDown\nud.Designer.vb">
+      <DependentUpon>nud.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\NumericUpDown\nud.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\Panel\pnl.Designer.vb">
+      <DependentUpon>pnl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\Panel\pnl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\PictureBox\pctbx.Designer.vb">
+      <DependentUpon>pctbx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\PictureBox\pctbx.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\ProgressBar\pgb.Designer.vb">
+      <DependentUpon>pgb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\ProgressBar\pgb.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\RadioButton\rdo.Designer.vb">
+      <DependentUpon>rdo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\RadioButton\rdo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\SplitContainer\spc.Designer.vb">
+      <DependentUpon>spc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\SplitContainer\spc.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\Status Strip\stt.Designer.vb">
+      <DependentUpon>stt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\Status Strip\stt.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\TabControl\tbctl.Designer.vb">
+      <DependentUpon>tbctl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\TabControl\tbctl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\TextBox\txt.Designer.vb">
+      <DependentUpon>txt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\TextBox\txt.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2091 - Class\00 - Globals\Globals.vb" />
+    <Compile Include="2099 - Interface\Controls\TreeView\tv.Designer.vb">
+      <DependentUpon>tv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Controls\TreeView\tv.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Forms\Templates\Windows10\w10_Blank.Designer.vb">
+      <DependentUpon>w10_Blank.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Forms\Templates\Windows10\w10_Blank.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Forms\Templates\Windows7\Blank.Designer.vb">
+      <DependentUpon>Blank.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Forms\Templates\Windows7\Blank.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Forms\Templates\Windows7\Standard\clsCreateMenu.vb" />
+    <Compile Include="2099 - Interface\Forms\Templates\Windows7\Standard\frmStandard.Designer.vb">
+      <DependentUpon>frmStandard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Forms\Templates\Windows7\Standard\frmStandard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Forms\Templates\Windows7\Standard\Standard + Find + Footer\Std_Fi_Fo.Designer.vb">
+      <DependentUpon>Std_Fi_Fo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Forms\Templates\Windows7\Standard\Standard + Find + Footer\Std_Fi_Fo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Forms\Templates\Windows7\Standard\Standard + Find\Std_Fi.Designer.vb">
+      <DependentUpon>Std_Fi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Forms\Templates\Windows7\Standard\Standard + Find\Std_Fi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Forms\Templates\Windows7\Standard\Standard + Footer\Report Basic\Rpt_Bsc.Designer.vb">
+      <DependentUpon>Rpt_Bsc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Forms\Templates\Windows7\Standard\Standard + Footer\Report Basic\Rpt_Bsc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2099 - Interface\Forms\Templates\Windows7\Standard\Standard + Footer\Std_Fo.Designer.vb">
+      <DependentUpon>Std_Fo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2099 - Interface\Forms\Templates\Windows7\Standard\Standard + Footer\Std_Fo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2090 - Module\Globals.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="2001 - Service\01 - Database\01 - Connection\clsConnection.vb" />
+    <Compile Include="2001 - Service\01 - Database\01 - Connection\clsProviderOptions.vb" />
+    <Compile Include="2001 - Service\01 - Database\01 - Connection\mdlConnection.vb" />
+    <Compile Include="2001 - Service\01 - Database\02 - Engine\02 - MS SQL Server 2008\clsMSSQL2008.vb" />
+    <Compile Include="2001 - Service\01 - Database\99 - Properties\clsDatabaseProperties.vb" />
+    <Compile Include="2001 - Service\98 - Catcher\clsCatcher.vb" />
+    <Compile Include="2001 - Service\99 - Error Reporting %28Lady Bug%29\frmErrorReporting.Designer.vb">
+      <DependentUpon>frmErrorReporting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2001 - Service\99 - Error Reporting %28Lady Bug%29\frmErrorReporting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2002 - System\020 - Operating System\clsFolders.vb" />
+    <Compile Include="2002 - System\000 - Security\clsSecurity.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="0010 - Embeded Files\080. Database\v11.0\CATALOG.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0010 - Embeded Files\080. Database\v11.0\DEV_CATALOG.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0010 - Embeded Files\080. Database\v11.0\ERRLOG.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2001 - Service\97 - Dialog Box\frmDialogBox.resx">
+      <DependentUpon>frmDialogBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2099 - Interface\1st Party\ULbl.resx">
+      <DependentUpon>ULbl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2099 - Interface\3rd Party\PDFViewer\PDFVWR.resx">
+      <DependentUpon>PDFVWR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2099 - Interface\3rd Party\PhotoViewer\PhotoViewer.resx">
+      <DependentUpon>PhotoViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2099 - Interface\3rd Party\PhotoResizer\PHTRZ.resx">
+      <DependentUpon>PHTRZ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2099 - Interface\3rd Party\RichText Control\Editor\frmHTMLOptions.resx">
+      <DependentUpon>frmHTMLOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2099 - Interface\3rd Party\RichText Control\Editor\frmTextEditor.resx">
+      <DependentUpon>frmTextEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2099 - Interface\Forms\Templates\Windows10\w10_Blank.resx">
+      <DependentUpon>w10_Blank.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2099 - Interface\Forms\Templates\Windows7\Blank.resx">
+      <DependentUpon>Blank.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2099 - Interface\Forms\Templates\Windows7\Standard\frmStandard.resx">
+      <DependentUpon>frmStandard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2099 - Interface\Forms\Templates\Windows7\Standard\Standard + Find + Footer\Std_Fi_Fo.resx">
+      <DependentUpon>Std_Fi_Fo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2099 - Interface\Forms\Templates\Windows7\Standard\Standard + Find\Std_Fi.resx">
+      <DependentUpon>Std_Fi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2099 - Interface\Forms\Templates\Windows7\Standard\Standard + Footer\Report Basic\Rpt_Bsc.resx">
+      <DependentUpon>Rpt_Bsc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2099 - Interface\Forms\Templates\Windows7\Standard\Standard + Footer\Std_Fo.resx">
+      <DependentUpon>Std_Fo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="2080 - Library\001. Logo\Departement.metrop" />
+    <EmbeddedResource Include="2080 - Library\001. Logo\Employee.metrop" />
+    <EmbeddedResource Include="2080 - Library\001. Logo\Error.metrop" />
+    <EmbeddedResource Include="2080 - Library\001. Logo\Login.metrop" />
+    <EmbeddedResource Include="2080 - Library\001. Logo\Logout.metrop" />
+    <EmbeddedResource Include="2080 - Library\001. Logo\Plant.metrop" />
+    <EmbeddedResource Include="2080 - Library\001. Logo\TextEditor.metrop" />
+    <EmbeddedResource Include="2080 - Library\001. Logo\Plant2.metrop" />
+    <EmbeddedResource Include="2080 - Library\001. Logo\Storage.metrop" />
+    <None Include="000. Programmer%27s Guide\All-In-One Code Framework Coding Standards.docx" />
+    <None Include="2080 - Library\001. Logo\DailyActivity.metrop" />
+    <None Include="app.config" />
+    <EmbeddedResource Include="2080 - Library\001. Logo\Qe-Logo.metrop" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="2001 - Service\99 - Error Reporting %28Lady Bug%29\frmErrorReporting.resx">
+      <DependentUpon>frmErrorReporting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2002 - System\000 - Security\Manual+Source\Security Engine Source.pdf" />
+    <EmbeddedResource Include="2001 - Service\01 - Database\01 - Connection\Manual+Source\MSSQL2008 Manual.pdf" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="2001 - Service\02 - SOAP\" />
+    <Folder Include="2001 - Service\03 - Web\" />
+    <Folder Include="2001 - Service\04 - Map\Bing\" />
+    <Folder Include="2001 - Service\04 - Map\Google\" />
+    <Folder Include="2002 - System\110 - File Processor\Limiter\" />
+    <Folder Include="2002 - System\900 - Application\" />
+    <Folder Include="2091 - Class\01 - Database\02 - SQL Server 2008\" />
+    <Folder Include="2099 - Interface\3rd Party\MergerToolStrips\" />
+    <Folder Include="2099 - Interface\Controls\MergerToolStrips\" />
+    <Folder Include="2099 - Interface\Controls\TextEditor\" />
+    <Folder Include="x64\" />
+    <Folder Include="x86\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="2099 - Interface\Controls\Button\btn.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="2099 - Interface\Controls\DateTimePicker\dtp.ico" />
+    <EmbeddedResource Include="2099 - Interface\Controls\Label\lbl.ico" />
+    <EmbeddedResource Include="2099 - Interface\Controls\TextBox\txt.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="2099 - Interface\Controls\DataGridView\dgn.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="2099 - Interface\Controls\GroupBox\gbx.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="2099 - Interface\Controls\LinkLabel\lnklbl.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="2099 - Interface\Controls\ComboBox\cbo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="2099 - Interface\Controls\MaskEditBox\meb.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="2099 - Interface\Controls\CheckBox\chk.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="2099 - Interface\Controls\RadioButton\rdo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="2099 - Interface\Controls\ProgressBar\pgb.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="2099 - Interface\Controls\Panel\pnl.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="0010 - Embeded Files\080. Database\Classic\CATALOG.mdb" />
+    <EmbeddedResource Include="0010 - Embeded Files\080. Database\Classic\DEV_CATALOG.mdb" />
+    <EmbeddedResource Include="0010 - Embeded Files\080. Database\Classic\ERRLOG.mdb" />
+    <Content Include="0010 - Embeded Files\080. Database\v11.0\CATALOG_log.ldf">
+      <DependentUpon>CATALOG.mdf</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="0010 - Embeded Files\080. Database\v11.0\DEV_CATALOG_log.ldf">
+      <DependentUpon>DEV_CATALOG.mdf</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="0010 - Embeded Files\080. Database\v11.0\ERRLOG_log.ldf">
+      <DependentUpon>ERRLOG.mdf</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2099 - Interface\Controls\NumericUpDown\nud.ico" />
+    <Content Include="2099 - Interface\Controls\PictureBox\pctbx.ico" />
+    <EmbeddedResource Include="Resources\EDIT_002_512_icon .png" />
+    <EmbeddedResource Include="Resources\Save_001_24_FFFFFFFF_FF5423C3.png" />
+    <EmbeddedResource Include="Resources\OpenFile_001_24_FFFFFFFF_FF5423C3.png" />
+    <EmbeddedResource Include="Resources\FitPage_001_24_FFFFFFFF_FF5423C3.png" />
+    <EmbeddedResource Include="Resources\FitWidth_001_24_FFFFFFFF_FF5423C3.png" />
+    <EmbeddedResource Include="Resources\ZoomIn_001_24_FFFFFFFF_FF5423C3.png" />
+    <EmbeddedResource Include="Resources\ZoomOut_001_24_FFFFFFFF_FF5423C3.png" />
+    <EmbeddedResource Include="Resources\ArrowRight_001_24_FFFFFFFF_FF5423C3.png" />
+    <EmbeddedResource Include="Resources\ArrowLeft_001_24_FFFFFFFF_FF5423C3.png" />
+    <EmbeddedResource Include="Resources\ArrowLast_001_24_FFFFFFFF_FF5423C3.png" />
+    <EmbeddedResource Include="Resources\ArrowFirst_001_24_FFFFFFFF_FF5423C3.png" />
+    <EmbeddedResource Include="Resources\Resize_001_90_FFFFFFFF_.png" />
+    <EmbeddedResource Include="Resources\petronas_green.png" />
+    <EmbeddedResource Include="Resources\Question_001_90_FFFFFFFF_.png" />
+    <EmbeddedResource Include="Resources\Information_001_90_FFFFFFFF_.png" />
+    <EmbeddedResource Include="Resources\Alert_001_90_FFFFFFFF_.png" />
+    <EmbeddedResource Include="Resources\Error_002_90_FFFFFFFF_.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodeintelligentmail.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodefourstate.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodeean13.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodeean8.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodedatamatrix.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodecode128.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodecode93.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodecode39.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodecode11.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodecodabar.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodeazteccode.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodeupca.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcoderoyalmail.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodeqrcode.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodepostnet.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodeplanet.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodepdf417.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodemicropdf.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodemaxicode.png" />
+    <EmbeddedResource Include="Resources\TED_16_barcodeinterleaved2of5.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartgridlinesmajorhor.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartformat.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartdatatable.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartdatalabels.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartcolumn3d.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartcolumn.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartbelowaxistitle.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartbar3d.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartbar.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartaxes.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartarea3d.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartarea.png" />
+    <EmbeddedResource Include="Resources\TED_16_chart.png" />
+    <EmbeddedResource Include="Resources\TED_16_charttitlemain.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartsetdatarelation.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartpie3d.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartpie.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartline3d.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartline.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartlegend.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartlayout.png" />
+    <EmbeddedResource Include="Resources\TED_16_chartgridlinesmajorvert.png" />
+    <EmbeddedResource Include="Resources\TED_16_undo.png" />
+    <EmbeddedResource Include="Resources\TED_16_textframe.png" />
+    <EmbeddedResource Include="Resources\TED_16_tabs.png" />
+    <EmbeddedResource Include="Resources\TED_16_tablegridlines.png" />
+    <EmbeddedResource Include="Resources\TED_16_tabledialog.png" />
+    <EmbeddedResource Include="Resources\TED_16_table.png" />
+    <EmbeddedResource Include="Resources\TED_16_styledialog.png" />
+    <EmbeddedResource Include="Resources\TED_16_splittablecells.png" />
+    <EmbeddedResource Include="Resources\TED_16_splittablebelow.png" />
+    <EmbeddedResource Include="Resources\TED_16_splittableabove.png" />
+    <EmbeddedResource Include="Resources\TED_16_splittable.png" />
+    <EmbeddedResource Include="Resources\TED_16_spelling.png" />
+    <EmbeddedResource Include="Resources\TED_16_setlanguage.png" />
+    <EmbeddedResource Include="Resources\TED_16_selecttablerow.png" />
+    <EmbeddedResource Include="Resources\TED_16_selecttablecol.png" />
+    <EmbeddedResource Include="Resources\TED_16_selecttablecell.png" />
+    <EmbeddedResource Include="Resources\TED_16_selecttable.png" />
+    <EmbeddedResource Include="Resources\TED_16_save.png" />
+    <EmbeddedResource Include="Resources\TED_16_replace.png" />
+    <EmbeddedResource Include="Resources\TED_16_redo.png" />
+    <EmbeddedResource Include="Resources\TED_16_printpreview.png" />
+    <EmbeddedResource Include="Resources\TED_16_print.png" />
+    <EmbeddedResource Include="Resources\TED_16_paste.png" />
+    <EmbeddedResource Include="Resources\TED_16_paragraphsettings.png" />
+    <EmbeddedResource Include="Resources\TED_16_pageviewprint.png" />
+    <EmbeddedResource Include="Resources\TED_16_pageviewnormal.png" />
+    <EmbeddedResource Include="Resources\TED_16_pagenumbertop.png" />
+    <EmbeddedResource Include="Resources\TED_16_pagenumberbottom.png" />
+    <EmbeddedResource Include="Resources\TED_16_pageframedialog.png" />
+    <EmbeddedResource Include="Resources\TED_16_pagedialog.png" />
+    <EmbeddedResource Include="Resources\TED_16_pagecolumnstwo.png" />
+    <EmbeddedResource Include="Resources\TED_16_pagebreak.png" />
+    <EmbeddedResource Include="Resources\TED_16_options.png" />
+    <EmbeddedResource Include="Resources\TED_16_open.png" />
+    <EmbeddedResource Include="Resources\TED_16_newpage.png" />
+    <EmbeddedResource Include="Resources\TED_16_mergetablecells.png" />
+    <EmbeddedResource Include="Resources\TED_16_mailmergeshowfieldtext.png" />
+    <EmbeddedResource Include="Resources\TED_16_mailmergeshowfieldcodes.png" />
+    <EmbeddedResource Include="Resources\TED_16_mailmergenextiffield.png" />
+    <EmbeddedResource Include="Resources\TED_16_mailmergenextfield.png" />
+    <EmbeddedResource Include="Resources\TED_16_mailmergeinsertfield.png" />
+    <EmbeddedResource Include="Resources\TED_16_mailmergeincludetextfield.png" />
+    <EmbeddedResource Include="Resources\TED_16_mailmergeiffield.png" />
+    <EmbeddedResource Include="Resources\TED_16_mailmergehighlightfields.png" />
+    <EmbeddedResource Include="Resources\TED_16_mailmergefieldproperties.png" />
+    <EmbeddedResource Include="Resources\TED_16_mailmergedeletefield.png" />
+    <EmbeddedResource Include="Resources\TED_16_mailmergedatefield.png" />
+    <EmbeddedResource Include="Resources\TED_16_listdialog.png" />
+    <EmbeddedResource Include="Resources\TED_16_languagedetection.png" />
+    <EmbeddedResource Include="Resources\TED_16_inserttablerowbelow.png" />
+    <EmbeddedResource Include="Resources\TED_16_inserttablerowabove.png" />
+    <EmbeddedResource Include="Resources\TED_16_inserttablecolright.png" />
+    <EmbeddedResource Include="Resources\TED_16_inserttablecolleft.png" />
+    <EmbeddedResource Include="Resources\TED_16_insertpagenumber.png" />
+    <EmbeddedResource Include="Resources\TED_16_insertlinebreak.png" />
+    <EmbeddedResource Include="Resources\TED_16_inserthyperlink.png" />
+    <EmbeddedResource Include="Resources\TED_16_insertfile.png" />
+    <EmbeddedResource Include="Resources\TED_16_insertbookmark.png" />
+    <EmbeddedResource Include="Resources\TED_16_indentincrease.png" />
+    <EmbeddedResource Include="Resources\TED_16_indentdecrease.png" />
+    <EmbeddedResource Include="Resources\TED_16_image.png" />
+    <EmbeddedResource Include="Resources\TED_16_hyphenation.png" />
+    <EmbeddedResource Include="Resources\TED_16_hfdialog.png" />
+    <EmbeddedResource Include="Resources\TED_16_help.png" />
+    <EmbeddedResource Include="Resources\TED_16_header.png" />
+    <EmbeddedResource Include="Resources\TED_16_formlayoutrtl.png" />
+    <EmbeddedResource Include="Resources\TED_16_formlayoutltr.png" />
+    <EmbeddedResource Include="Resources\TED_16_find.png" />
+    <EmbeddedResource Include="Resources\TED_16_export.png" />
+    <EmbeddedResource Include="Resources\TED_16_exit.png" />
+    <EmbeddedResource Include="Resources\TED_16_edithyperlink.png" />
+    <EmbeddedResource Include="Resources\TED_16_deletetablerow.png" />
+    <EmbeddedResource Include="Resources\TED_16_deletetablecol.png" />
+    <EmbeddedResource Include="Resources\TED_16_deletetablecell.png" />
+    <EmbeddedResource Include="Resources\TED_16_deletetable.png" />
+    <EmbeddedResource Include="Resources\TED_16_deletepagenumber.png" />
+    <EmbeddedResource Include="Resources\TED_16_delete.png" />
+    <EmbeddedResource Include="Resources\TED_16_cut.png" />
+    <EmbeddedResource Include="Resources\TED_16_copy.png" />
+    <EmbeddedResource Include="Resources\TED_16_charactersettings.png" />
+    <EmbeddedResource Include="Resources\TED_16_zoom.png" />
+    <EmbeddedResource Include="Resources\TextEditor_001_90_FFFFFFFF_.png" />
+    <EmbeddedResource Include="Resources\Error_001_90_FFFFFFFF_.png" />
+    <EmbeddedResource Include="2080 - Library\001. Logo\QeLogo16.ico" />
+    <EmbeddedResource Include="2080 - Library\001. Logo\QeLogo16Red.ico" />
+    <EmbeddedResource Include="2002 - System\000 - Security\Manual+Source\Security Engine Manual.txt" />
+    <EmbeddedResource Include="Resources\FailToLoad_001_24_FFFFFFFF_.png" />
+    <EmbeddedResource Include="Resources\Loading_001_24_FFFFFFFF_.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\..\Ingrid\Apps\Core\Ingrid\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\Ingrid\Apps\Core\Ingrid\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\..\..\Ingrid\Apps\Core\Ingrid\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\Ingrid\Apps\Core\Ingrid\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\..\..\Ingrid\Apps\Core\Ingrid\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\..\..\Ingrid\Apps\Core\Ingrid\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
