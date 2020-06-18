@@ -71,7 +71,7 @@ Namespace Database.Engine
                 Dim _FileInfo As New OperatingSystem.File.Info
 
                 If _FileInfo.IsExists(_FilePath(0)) Then
-                    _CS(0) = _LocalDB.LocalDB_InitialCatalog(_FilePath(0))
+                    _CS(0) = _LocalDB.LocalDB_InitialCatalog(_FilePath(0), True)
 
                     _CONN(1) = New SqlClient.SqlConnection(_CS(0)) 'OleDb.OleDbConnection(_CS(0))
                     _CONN(1).Open()
@@ -82,7 +82,7 @@ Namespace Database.Engine
                 _FilePath(1) = Application.StartupPath & "\Resources\ERRLOG.mdf"
 
                 If _FileInfo.IsExists(_FilePath(1)) Then
-                    _CS(1) = _LocalDB.LocalDB_InitialCatalog(_FilePath(1))
+                    _CS(1) = _LocalDB.LocalDB_InitialCatalog(_FilePath(1), True)
 
                     _CONN(2) = New SqlClient.SqlConnection(_CS(1))
                     _CONN(2).Open()

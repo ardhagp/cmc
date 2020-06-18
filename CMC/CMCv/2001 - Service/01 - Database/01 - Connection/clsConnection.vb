@@ -226,28 +226,28 @@ Namespace Database.Connect
         ''' 
         ''' </summary>
         ''' <returns></returns>
-        Function LocalDB_AutomaticInstance() As String
+        Function LocalDB_AutomaticInstance(Optional SQLVersionis2014Above As Boolean = False) As String
 
         ''' <summary>
         ''' 
         ''' </summary>
         ''' <param name="DBFileName"></param>
         ''' <returns></returns>
-        Function LocalDB_AttachDB(ByVal DBFileName As String) As String
+        Function LocalDB_AttachDB(ByVal DBFileName As String, Optional SQLVersionis2014Above As Boolean = False) As String
 
         ''' <summary>
         ''' 
         ''' </summary>
         ''' <param name="InstanceName"></param>
         ''' <returns></returns>
-        Function LocalDB_SpecifiedInstance(ByVal InstanceName As String) As String
+        Function LocalDB_SpecifiedInstance(ByVal InstanceName As String, Optional SQLVersionis2014Above As Boolean = False) As String
 
         ''' <summary>
         ''' 
         ''' </summary>
         ''' <param name="DBFileName"></param>
         ''' <returns></returns>
-        Function LocalDB_InitialCatalog(ByVal DBFileName As String) As String
+        Function LocalDB_InitialCatalog(ByVal DBFileName As String, Optional SQLVersionis2014Above As Boolean = False) As String
 
     End Interface
 
@@ -361,24 +361,45 @@ Namespace Database.Connect
 
     Public Class LocalDBConnection
         Implements ILocalDBConnections
+        Private _ServerAddress As String = Nothing
 
-        Public Function LocalDB_AttachDB(DBFileName As String) As String Implements ILocalDBConnections.LocalDB_AttachDB
-            _RESULT = "Server=(localdb)\v11.0;Integrated Security=true;AttachDbFileName=" & DBFileName & ";"
+        Public Function LocalDB_AttachDB(DBFileName As String, Optional SQLVersionis2014Above As Boolean = False) As String Implements ILocalDBConnections.LocalDB_AttachDB
+            If SQLVersionis2014Above = False Then
+                _ServerAddress = "Server=(localdb)\v11.0;"
+            Else
+                _ServerAddress = "Server=(LocalDb)\MSSQLLocalDB;"
+            End If
+
+            _RESULT = _ServerAddress + "Integrated Security=true;AttachDbFileName=" & DBFileName & ";"
+
             Return _RESULT
         End Function
 
-        Public Function LocalDB_AutomaticInstance() As String Implements ILocalDBConnections.LocalDB_AutomaticInstance
-            _RESULT = "Server=(localdb)\v11.0;Integrated Security=true;"
+        Public Function LocalDB_AutomaticInstance(Optional SQLVersionis2014Above As Boolean = False) As String Implements ILocalDBConnections.LocalDB_AutomaticInstance
+            If SQLVersionis2014Above = False Then
+                _ServerAddress = "Server=(localdb)\v11.0;"
+            Else
+                _ServerAddress = "Server=(LocalDb)\MSSQLLocalDB;"
+            End If
+
+            _RESULT = _ServerAddress + "Integrated Security=true;"
+
             Return _RESULT
         End Function
 
-        Public Function LocalDB_SpecifiedInstance(InstanceName As String) As String Implements ILocalDBConnections.LocalDB_SpecifiedInstance
+        Public Function LocalDB_SpecifiedInstance(InstanceName As String, Optional SQLVersionis2014Above As Boolean = False) As String Implements ILocalDBConnections.LocalDB_SpecifiedInstance
             _RESULT = "Server=(localdb)\" & InstanceName & ";Integrated Security=true;"
             Return _RESULT
         End Function
 
-        Public Function LocalDB_InitialCatalog(DBFileName As String) As String Implements ILocalDBConnections.LocalDB_InitialCatalog
-            _RESULT = "Server=(localdb)\v11.0;Integrated Security=true;AttachDbFileName=" & DBFileName & ";Encrypt=False; TrustServerCertificate=False;"
+        Public Function LocalDB_InitialCatalog(DBFileName As String, Optional SQLVersionis2014Above As Boolean = False) As String Implements ILocalDBConnections.LocalDB_InitialCatalog
+            If SQLVersionis2014Above = False Then
+                _ServerAddress = "Server=(localdb)\v11.0;"
+            Else
+                _ServerAddress = "Server=(LocalDb)\MSSQLLocalDB;"
+            End If
+
+            _RESULT = _ServerAddress + "Integrated Security=true;AttachDbFileName=" & DBFileName & ";Encrypt=False; TrustServerCertificate=False;"
             Return _RESULT
         End Function
     End Class

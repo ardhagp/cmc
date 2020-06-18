@@ -1,0 +1,1301 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CMCv
+</name>
+</assembly>
+<members>
+<member name="T:CMCv.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.Alert_001_90_FFFFFFFF_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.ArrowFirst_001_24_FFFFFFFF_FF5423C3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.ArrowLast_001_24_FFFFFFFF_FF5423C3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.ArrowLeft_001_24_FFFFFFFF_FF5423C3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.ArrowRight_001_24_FFFFFFFF_FF5423C3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.EDIT_002_512_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.Error_001_90_FFFFFFFF_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.Error_002_90_FFFFFFFF_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.FailToLoad_001_24_FFFFFFFF_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.FitPage_001_24_FFFFFFFF_FF5423C3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.FitWidth_001_24_FFFFFFFF_FF5423C3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.Information_001_90_FFFFFFFF_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.Loading_001_24_FFFFFFFF_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.OpenFile_001_24_FFFFFFFF_FF5423C3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.petronas_green">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.Question_001_90_FFFFFFFF_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.Resize_001_90_FFFFFFFF_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.Save_001_24_FFFFFFFF_FF5423C3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodeazteccode">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodecodabar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodecode11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodecode128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodecode39">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodecode93">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodedatamatrix">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodeean13">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodeean8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodefourstate">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodeintelligentmail">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodeinterleaved2of5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodemaxicode">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodemicropdf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodepdf417">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodeplanet">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodepostnet">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodeqrcode">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcoderoyalmail">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_barcodeupca">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_charactersettings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chart">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartarea">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartarea3d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartaxes">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartbar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartbar3d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartbelowaxistitle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartcolumn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartcolumn3d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartdatalabels">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartdatatable">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartformat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartgridlinesmajorhor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartgridlinesmajorvert">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartlayout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartlegend">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartline">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartline3d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartpie">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartpie3d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_chartsetdatarelation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_charttitlemain">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_cut">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_deletepagenumber">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_deletetable">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_deletetablecell">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_deletetablecol">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_deletetablerow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_edithyperlink">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_exit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_export">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_find">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_formlayoutltr">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_formlayoutrtl">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_header">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_help">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_hfdialog">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_hyphenation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_image">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_indentdecrease">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_indentincrease">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_insertbookmark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_insertfile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_inserthyperlink">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_insertlinebreak">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_insertpagenumber">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_inserttablecolleft">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_inserttablecolright">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_inserttablerowabove">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_inserttablerowbelow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_languagedetection">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_listdialog">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_mailmergedatefield">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_mailmergedeletefield">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_mailmergefieldproperties">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_mailmergehighlightfields">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_mailmergeiffield">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_mailmergeincludetextfield">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_mailmergeinsertfield">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_mailmergenextfield">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_mailmergenextiffield">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_mailmergeshowfieldcodes">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_mailmergeshowfieldtext">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_mergetablecells">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_newpage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_open">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_options">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_pagebreak">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_pagecolumnstwo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_pagedialog">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_pageframedialog">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_pagenumberbottom">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_pagenumbertop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_pageviewnormal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_pageviewprint">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_paragraphsettings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_paste">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_print">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_printpreview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_redo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_replace">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_selecttable">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_selecttablecell">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_selecttablecol">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_selecttablerow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_setlanguage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_spelling">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_splittable">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_splittableabove">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_splittablebelow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_splittablecells">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_styledialog">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_table">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_tabledialog">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_tablegridlines">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_tabs">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_textframe">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_undo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TED_16_zoom">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.TextEditor_001_90_FFFFFFFF_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.ZoomIn_001_24_FFFFFFFF_FF5423C3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CMCv.My.Resources.Resources.ZoomOut_001_24_FFFFFFFF_FF5423C3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:CMCv.Database.Connect.IMSAccess2003Connections">
+ <summary>
+ Database connection string untuk berbagai provider
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.IMSAccess2003Connections.Microsoft_OLEDB_Standard(System.String,System.String,System.String)">
+ <summary>
+ Koneksi database Access 2003 menggunakan OLEDB
+ </summary>
+ <param name="DatabasePath">Direktori database</param>
+ <param name="Username">Username</param>
+ <param name="Password">Kata sandi</param>
+ <returns>String</returns>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.IMSAccess2003Connections.Microsoft_ODBC_Standard(System.String,System.String,System.String)">
+ <summary>
+ Koneksi database Access 2003 Standard
+ </summary>
+ <param name="DatabasePath">Direktori database</param>
+ <param name="Username">Username</param>
+ <param name="Password">Kata sandi</param>
+ <returns>String</returns>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.IMSSQLServer2008Connections.MS_SQL2008_Standard(System.String,System.String,System.String,System.String)">
+ <summary>
+ Koneksi SQL Server 2008 Standard
+ </summary>
+ <param name="ServerAddress">Alamat server</param>
+ <param name="DatabaseName">Nama database</param>
+ <param name="Username">Username</param>
+ <param name="Password">Password</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.IMSSQLServer2008Connections.MS_SQL2008_TrustedConnection(System.String,System.String)">
+ <summary>
+ Koneksi SQL Server 2008 Trusted Connection
+ </summary>
+ <param name="ServerAddress">Alamat server</param>
+ <param name="DatabaseName">Nama database</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.IMySQLConnections.MySQL_ODBC51_Standard(System.String,System.String,System.String,System.String)">
+ <summary>
+ Konksi database ODBC51 Standard
+ </summary>
+ <param name="ServerAddress">Alamat server</param>
+ <param name="Username">Username</param>
+ <param name="Password">Password</param>
+ <param name="Database">Database</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.IMySQLConnections.MySQL_NET_InactivatingPreparedStatement(System.String,System.String,System.String,System.String,CMCv.Database.Provider.Options.IgnorePrepare)">
+ <summary>
+ Koneksi database MySQL .NET Inactivating Prepared Statement
+ </summary>
+ <param name="ServerAddress">Alamat server</param>
+ <param name="Username">Username</param>
+ <param name="Password">Password</param>
+ <param name="Database">Database</param>
+ <param name="IgnorePrepare">Ignore Prepare</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.IMySQLConnections.MySQL_NET_NamedPipes(System.String,System.String,System.String,System.String)">
+ <summary>
+ Koneksi database MySQL .NET Named Pipes
+ </summary>
+ <param name="ServerAddress">Alamat server</param>
+ <param name="Username">Username</param>
+ <param name="Password">Passoword</param>
+ <param name="Database">Database</param>
+ <returns>String</returns>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.IMySQLConnections.MySQL_NET_NetworkProtocol(System.String,System.Int32,System.String,System.String,System.String,CMCv.Database.Provider.Options.Protocol)">
+ <summary>
+ 
+ </summary>
+ <param name="ServerAddress">IP or Hostname</param>
+ <param name="Port"></param>
+ <param name="Username"></param>
+ <param name="Password"></param>
+ <param name="Database"></param>
+ <param name="Protocol"></param>
+ <returns>String</returns>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.IMySQLConnections.MySQL_NET_Standard(System.String,System.String,System.String,System.String)">
+ <summary>
+ 
+ </summary>
+ <param name="ServerAddress"></param>
+ <param name="Username"></param>
+ <param name="Password"></param>
+ <param name="Database"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.IMySQLConnections.MySQL_NET_SpecifyingCharacterSet(System.String,System.String,System.String,System.String,CMCv.Database.Provider.Options.CharSet)">
+ <summary>
+ 
+ </summary>
+ <param name="ServerAddress"></param>
+ <param name="Username"></param>
+ <param name="Password"></param>
+ <param name="Database"></param>
+ <param name="CharSet"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.IMySQLConnections.MySQL_NET_SpecifyingCommandTimeout(System.String,System.Int32,System.String,System.String,System.String,System.Int32)">
+ <summary>
+ 
+ </summary>
+ <param name="ServerAddress"></param>
+ <param name="Port"></param>
+ <param name="Username"></param>
+ <param name="Password"></param>
+ <param name="Database"></param>
+ <param name="Timeout"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.IMySQLConnections.MySQL_NET_SpecifyingPort(System.String,System.Int32,System.String,System.String,System.String)">
+ <summary>
+ 
+ </summary>
+ <param name="ServerAddress"></param>
+ <param name="Port"></param>
+ <param name="Username"></param>
+ <param name="Password"></param>
+ <param name="Database"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.IMySQLConnections.MySQL_NET_SpecifyingSharedMemoryName(System.String,System.String,System.String,System.String,CMCv.Database.Provider.Options.SharedMemoryName)">
+ <summary>
+ 
+ </summary>
+ <param name="ServerAddress"></param>
+ <param name="Username"></param>
+ <param name="Password"></param>
+ <param name="Database"></param>
+ <param name="SharedMemoryName"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.IMySQLConnections.MySQL_NET_UsingEncryption(System.String,System.String,System.String,System.String,CMCv.Database.Provider.Options.Encryption)">
+ <summary>
+ 
+ </summary>
+ <param name="ServerAddress"></param>
+ <param name="Username"></param>
+ <param name="Password"></param>
+ <param name="Database"></param>
+ <param name="Encryption"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.IMySQLConnections.MySQL_NET_UsingEncryptionAlternative(System.String,System.String,System.String,System.String,CMCv.Database.Provider.Options.Encryption)">
+ <summary>
+ 
+ </summary>
+ <param name="ServerAddress"></param>
+ <param name="Username"></param>
+ <param name="Password"></param>
+ <param name="Database"></param>
+ <param name="Encrypt"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.ILocalDBConnections.LocalDB_AutomaticInstance(System.Boolean)">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:CMCv.Database.Connect.ILocalDBConnections.LocalDB_AttachDB(System.String,System.Boolean)">
+ <summary>
+ 
+ </summary>
+ <param name="DBFileName"></param>
+ <returns></returns>
+</member>
+<member name="M:CMCv.Database.Connect.ILocalDBConnections.LocalDB_SpecifiedInstance(System.String,System.Boolean)">
+ <summary>
+ 
+ </summary>
+ <param name="InstanceName"></param>
+ <returns></returns>
+</member>
+<member name="M:CMCv.Database.Connect.ILocalDBConnections.LocalDB_InitialCatalog(System.String,System.Boolean)">
+ <summary>
+ 
+ </summary>
+ <param name="DBFileName"></param>
+ <returns></returns>
+</member>
+<member name="M:CMCv.Database.Connect.MSAccess2003Connection.Microsoft_ODBC_Standard(System.String,System.String,System.String)">
+ <summary>
+ Koneksi database Access 2003
+ </summary>
+ <param name="DatabasePath">Direktori database</param>
+ <param name="Username">Username</param>
+ <param name="Password">Kata sandi</param>
+ <returns>String</returns>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.MSAccess2003Connection.Microsoft_OLEDB_Standard(System.String,System.String,System.String)">
+ <summary>
+ 
+ </summary>
+ <param name="DatabasePath"></param>
+ <param name="Username"></param>
+ <param name="Password"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.MSSQLServer2008Connection.MS_SQL2008_Standard(System.String,System.String,System.String,System.String)">
+ <summary>
+ 
+ </summary>
+ <param name="ServerAddress"></param>
+ <param name="DatabaseName"></param>
+ <param name="Username"></param>
+ <param name="Password"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.Database.Connect.MSSQLServer2008Connection.MS_SQL2008_TrustedConnection(System.String,System.String)">
+ <summary>
+ 
+ </summary>
+ <param name="ServerAddress"></param>
+ <param name="DatabaseName"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:CMCv.Database.Provider.Options">
+ <summary>
+ Merupakan attribut pelengkap koneksi database
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:CMCv.Database.Provider.Options.Protocol.TCP">
+ <summary>
+ Jenis protokol yang digunakan
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:CMCv.Database.Provider.Options.Encryption.Yes">
+ <summary>
+ Jenis enkripsi untuk menjamin keamanan lalu lintas data
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:CMCv.Database.Provider.Options.CharSet.UTF8">
+ <summary>
+ Character set yang umum digunakan
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:CMCv.Database.Provider.Options.IgnorePrepare.Yes">
+ <summary>
+ Mode IgnorePrepare
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:CMCv.Database.Provider.Options.SharedMemoryName.MYSQL">
+ <summary>
+ Nama memory bagi pakai
+ </summary>
+ <remarks>Khusus MySQL</remarks>
+</member>
+<member name="F:CMCv.Database.Provider.Options.CommandLogging.Yes">
+ <summary>
+ Untuk pencatatan perintah database
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:CMCv.Database.Provider.Options.Compression.Yes">
+ <summary>
+ Mode kompresi data
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:CMCv.Database.Provider.Options.Pooling.Yes">
+ <summary>
+ Mode pooling
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:CMCv.Database.Provider.Options.Direct.Yes">
+ <summary>
+ Mode direct
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.frmDialogBox.#ctor">
+ <summary>
+ Custom Message Box
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.frmDialogBox.#ctor(System.String,System.String,CMCv.frmDialogBox.MessageIcon,CMCv.frmDialogBox.MessageTypes)">
+ <summary>
+ Custom Message Box
+ </summary>
+ <param name="Message">Tuliskan pesan anda di sini</param>
+ <param name="Caption">Judul Form dan Caption</param>
+ <param name="MessageIcon">Jenis icon yang akan digunakan</param>
+ <param name="ButtonType">Tipe tombol yang akan digunakan</param>
+ <remarks></remarks>
+</member>
+<member name="T:CMCv.Security.Engine.KeySize">
+ <summary>
+ Engine (SDP) adalah Securing Data Process. Berfungsi untuk mengamankan data anda.
+ 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.ImageEditor.Proccessor.Compress.OutputAsImage(System.String)">
+ <summary>
+ Convert File Path to Image
+ </summary>
+ <param name="File"></param>
+ <returns></returns>
+</member>
+<member name="M:CMCv.ImageEditor.Proccessor.Compress.OutputAsImage(System.IO.FileStream)">
+ <summary>
+ Convert Filestream to Image
+ </summary>
+ <param name="File"></param>
+ <returns></returns>
+</member>
+<member name="M:CMCv.ImageEditor.Proccessor.Compress.OutputAsImage(System.Byte[])">
+ <summary>
+ Convert Byte to Image
+ </summary>
+ <param name="File"></param>
+ <returns></returns>
+</member>
+<member name="M:CMCv.OperatingSystem.File.Info.IsExists(System.String)">
+ <summary>
+ Fungsi untuk memastikan bahwa file ada.
+ </summary>
+ <param name="FilePath">Letak dan nama file tersimpan</param>
+ <returns>Boolean</returns>
+</member>
+<member name="M:CMCv.OperatingSystem.File.Info.Size(System.String)">
+ <summary>
+ Fungsi untuk menghitung besar suatu file.
+ </summary>
+ <param name="FilePath">Letak dan nama file tersimpan</param>
+ <returns>Double</returns>
+</member>
+<member name="M:CMCv.OperatingSystem.File.Upload.IsAllowedSize(System.String,System.Double,System.Boolean)">
+ <summary>
+ Fungsi untuk memeriksa ukuran maksimum file yang dapat diunggah.
+ </summary>
+ <param name="FilePath">Letak dan nama file tersimpan</param>
+ <param name="MaxSize">Ukuran file maksimum (dalam Megabyte)</param>
+ <returns>Boolean</returns>
+</member>
+<member name="T:CMCv.FileDragDropHandler">
+ <summary>
+ Handles file drag &amp; drop operations.
+ </summary>
+</member>
+<member name="P:CMCv.FileDragDropHandler.FileType">
+ <summary>
+ Dragged / dropped file type. (Image, document etc.)
+ </summary>
+</member>
+<member name="P:CMCv.FileDragDropHandler.ImageType">
+ <summary>
+ Dragged image type.
+ </summary>
+</member>
+<member name="T:CMCv.FileHandler">
+ <summary>
+ Handles file operations.
+ </summary>
+</member>
+<member name="M:CMCv.FileHandler.SetDocumentDirty(System.Boolean)">
+ <summary>
+ Handles the dirty flag for the current document and adds / removes the star (*)
+ </summary>
+ <param name="isDirty">Document is dirty</param>
+</member>
+<member name="M:CMCv.FileHandler.AddRecentFile(System.String)">
+ <summary>
+ Adds a new file path to the top of the list
+ </summary>
+</member>
+<member name="M:CMCv.PageSetup.GetTxPaperSize(TXTextControl.PageSize,System.Boolean)">
+ <summary>
+ Find a paper size that matches Text Control's current page size settings.  
+ </summary>
+</member>
+<member name="T:CMCv.SaveDocumentFileDialog">
+ <summary>
+ A replacement for Text Control's default file saving dialog. Adds the possibility 
+ to get and set the selected file extension using TXTextControl.StreamType.
+ </summary>
+</member>
+<member name="T:CMCv.btn">
+ <project>CMCC</project>
+ <author>Ardha Gp</author>
+ <summary>
+ Custom button
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.btn.GantiWarnaTombol(CMCv.ControlCodeBase.enuJenisTombol)">
+ <summary>
+ Ganti warna tombol.
+ </summary>
+ <param name="_valEnuJenisTombol">Enumerasi jenis tombol.</param>
+</member>
+<member name="T:CMCv.chk">
+ <project>CMCC</project>
+ <author>Ardha Gp</author>
+ <summary>
+ Custom checkbox
+ </summary>
+</member>
+<member name="T:CMCv.ControlCodeBase.enuJenisTombol">
+ <summary>
+ Enumerasi jenis tombol
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:CMCv.ControlCodeBase.enuJenisLabel">
+ <summary>
+ Enumerasi jenis warna label
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:CMCv.ControlCodeBase.enuJenisWarna">
+ <summary>
+ Enumerasi jenis warna
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:CMCv.ControlCodeBase.enuArahGradien">
+ <summary>
+ Enumerasi arah gradien
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:CMCv.ControlCodeBase.enuJenisValidasi">
+ <summary>
+ Enumerasi jenis validasi
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:CMCv.ControlCodeBase.enuJenisKapital">
+ <summary>
+ Enumerasi jenis kapital
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:CMCv.ControlCodeBase.enuOpasitasWarna">
+ <summary>
+ Enumerasi warna
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.ControlCodeBase.WarnaAcakBaru(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Fungsi untuk mengembalikan nilai warna baru secara acak.
+ </summary>
+ <returns>Color</returns>
+ <remarks></remarks>
+ <param name="RMin">Nilai minimum warna merah</param>
+ <param name="RMax">Nilai maksimum warna merah</param>
+ <param name="GMin">Nilai maminimum warna hijau</param>
+ <param name="GMax">Nilai maksimum warna hijau</param>
+ <param name="BMin">Nilai minimum warna biru</param>
+ <param name="BMax">Nilai maksimum warna biru</param>
+</member>
+<member name="M:CMCv.ControlCodeBase.AmbilWarna(System.Drawing.Color,CMCv.ControlCodeBase.enuOpasitasWarna,System.Int32)">
+ <summary>
+ Fungsi untuk mengambil warna.
+ </summary>
+ <param name="_valWarnaObjek">Objek warna.</param>
+ <param name="_valOpasitasWarna">Opasitas warna.</param>
+ <param name="_valIntensitasPerubahan">Intensitas perubahan.</param>
+ <returns>Wara RGB</returns>
+</member>
+<member name="T:CMCv.cbo">
+ <project>CMCC</project>
+ <author>Ardha Gp</author>
+ <summary>
+ Custom combobox
+ </summary>
+</member>
+<member name="T:CMCv.dgn">
+ <project>CMCC</project>
+ <author>Ardha Gp</author>
+ <summary>
+ Datagridview dengan warna random dan nomor urut baris.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:CMCv.txt">
+ <project>Mainframe : txt (Textbox Custom Component)</project>
+ <author>Ardha Gp</author>
+ <summary>
+ Custom komponen textbox. Dilengkapi dengan sekuensial validasi pada button clicked.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:CMCv.txt.SLFIsBlank">
+ <summary>
+ Nilai ini terisi secara otomatis
+ </summary>
+ <value>True/False</value>
+ <returns>True/False</returns>
+ <remarks></remarks>
+</member>
+<member name="T:CMCv.Num">
+ <summary>
+ 
+ </summary>
+</member>
+<member name="M:CMCv.UI.View.MenuStrip.LoadIn(System.Windows.Forms.Form,System.Boolean)">
+ <summary>
+ Menampilkan menu subform
+ </summary>
+ <param name="FormName">Nama form dimana menu akan ditampilkan</param>
+ <remarks></remarks>
+</member>
+<member name="M:CMCv.frmStandard.CheckTextInputs">
+ <summary>
+ This Function still not working 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:CMCv.frmStandard.FindControlRecursive(System.Collections.Generic.List{System.Windows.Forms.Control},System.Windows.Forms.Control,System.Type)">
+ <summary>
+ This function still not working
+ </summary>
+ <param name="list"></param>
+ <param name="Parent"></param>
+ <param name="CtrlType"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>

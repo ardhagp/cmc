@@ -1,0 +1,8 @@
+D:\DATA STORAGE\App Project\GIT\CMC\CMC\CMCc\bin\x86\Debug\CMCc.dll
+D:\DATA STORAGE\App Project\GIT\CMC\CMC\CMCc\bin\x86\Debug\CMCc.pdb
+D:\DATA STORAGE\App Project\GIT\CMC\CMC\CMCc\obj\x86\Debug\CMCc.csprojAssemblyReference.cache
+D:\DATA STORAGE\App Project\GIT\CMC\CMC\CMCc\obj\x86\Debug\CMCc.Properties.Resources.resources
+D:\DATA STORAGE\App Project\GIT\CMC\CMC\CMCc\obj\x86\Debug\CMCc.csproj.GenerateResource.cache
+D:\DATA STORAGE\App Project\GIT\CMC\CMC\CMCc\obj\x86\Debug\CMCc.csproj.CoreCompileInputs.cache
+D:\DATA STORAGE\App Project\GIT\CMC\CMC\CMCc\obj\x86\Debug\CMCc.dll
+D:\DATA STORAGE\App Project\GIT\CMC\CMC\CMCc\obj\x86\Debug\CMCc.pdb
